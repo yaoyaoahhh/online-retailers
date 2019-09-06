@@ -1,0 +1,19 @@
+//导航栏颜色
+$navColor:rgb(253, 107, 131);
+//mixin利用border定义箭头
+@mixin arrow($width:10px, $color:#fff, $direction:top) {
+    font-size: 0;
+    width: 0;
+    border: $width solid transparent;
+    border-#{$direction}-color: $color;
+}
+
+;
+//mixin清除浮动
+@mixin clearfix() {
+    &:after {
+        content: '';
+        display: block;
+        clear: both;
+    }
+}
