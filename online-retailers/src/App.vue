@@ -7,7 +7,7 @@
         </span>
       </span>
     </div>
-    <h1>吃货团购网</h1>
+    <h1>吃货团购</h1>
     <div class="login">登陆</div>
   </div>
   <div v-show="!$route.fullPath.includes('/detail/')" class="search"><input type="text" v-model="msg" @keyup.enter="showSearchResult" placeholder="请输入搜索关键字"></div>
