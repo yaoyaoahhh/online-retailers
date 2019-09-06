@@ -11,7 +11,7 @@ const Detail = () =>
     import ("./views/Detail.vue");
 
 const router = new Router({
-    mode: "history",
+    mode: "hash",
     base: process.env.BASE_URL,
     routes: [{
             path: "/list/:id",
